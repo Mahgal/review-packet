@@ -1,0 +1,17 @@
+diff --git a/app.py b/app.py
+index 1111111..2222222 100644
+--- a/app.py
++++ b/app.py
+@@ -1,2 +1,4 @@
+ import os
++API_KEY = "sk-live-abcdefgh12345678"
++print("debug here")
+ def main():
+diff --git a/util.py b/util.py
+new file mode 100644
+index 0000000..3333333
+--- /dev/null
++++ b/util.py
+@@ -0,0 +1,2 @@
++import subprocess
++subprocess.run(cmd, shell=True)
